@@ -1,7 +1,7 @@
 /**
  * Clase CocaCola, un tipo de bebida
  */
-class CocaCola extends Producto {
+class CocaCola extends Bebida {
     /**
      * Metodo constructor de CocaCola
      * @param a : numero de serie de la CocaCola

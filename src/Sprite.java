@@ -1,7 +1,7 @@
 /**
  * Clase Sprite, un tipo de bebida
  */
-class Sprite extends Producto {
+class Sprite extends Bebida {
     /**
      * Metodo constructor de Sprite
      * @param a : numero de serie de la Sprite
