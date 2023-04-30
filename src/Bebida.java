@@ -4,8 +4,8 @@
  */
 abstract class Bebida extends Producto{
     /**
-     *metodo constructor de Bebida
-     *
+     * Metodo constructor de bebida
+     * @param a : Numero de serie de bebida
      */
     public Bebida(int a) {
         super(a);

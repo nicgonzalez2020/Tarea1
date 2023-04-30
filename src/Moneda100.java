@@ -7,8 +7,8 @@ class Moneda100 extends Moneda{
      */
     public Moneda100(){}
     /**
-     * metodo que
-     * @return : retorna el valor de la moneda:100
+     * Metodo que retorna el valor de la moneda
+     * @return : 100
      */
     public int getValor(){
         return 100;

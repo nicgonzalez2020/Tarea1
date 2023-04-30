@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 /**
- * Clase deposito donde se guarda una lista de <Productos>
+ * Clase depositó donde se guarda una lista de <Productos>
  * desde la cual el expendedor obtiene los productos a vender
  */
 class Deposito{
@@ -13,7 +13,7 @@ class Deposito{
     private ArrayList<Producto> var;
 
     /**
-     * Constructor de deposito, inicializa la variable
+     * Constructor de depósito, inicializa la variable
      * privada arraylist var
      */
     public Deposito(){
@@ -21,7 +21,8 @@ class Deposito{
     }
 
     /**
-     * Metodo que añade el @param a, a la lista de produtos
+     * Metodo que añade un producto al depósito
+     * @param a : el producto añadido al depósito
      */
     public void addProducto(Producto a){
         var.add(a) ;
@@ -29,7 +30,7 @@ class Deposito{
 
     /**
      * Metodo que retorna el último producto del arraylist var
-     * @return
+     * @return : el último elemento<producto> del arraylist var
      */
     public Producto getProducto(){
         if(var.size()>0){

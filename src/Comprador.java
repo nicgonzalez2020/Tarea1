@@ -3,7 +3,7 @@
  */
 class Comprador {
     /**
-     * propiedad que almacena el sonido que
+     * Propiedad que almacena el sonido que
      * denota el producto que consumio el
      * comprador
      */

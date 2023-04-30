@@ -11,7 +11,7 @@ class DepositoM {
      */
     private ArrayList<Moneda> arr;
     /**
-     * Constructor de deposito, inicializa la variable
+     * Constructor de depósito, inicializa la variable
      * privada arraylist arr
      */
     public DepositoM() {
@@ -27,8 +27,8 @@ class DepositoM {
     }
 
     /**
-     * metodo que retorna el tamaño de arr
-     * @return
+     * Metodo que retorna el tamaño de arr
+     * @return : el tamaño de arr
      */
     public int tam(){
         return arr.size();
@@ -36,7 +36,7 @@ class DepositoM {
 
     /**
      * Metodo que retorna la última moneda de arr
-     * @return
+     * @return : el último elemento<moneda> almacenada en arr
      */
     public Moneda getMoneda(){
         if (arr.size() > 0) {

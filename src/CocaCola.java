@@ -4,7 +4,7 @@
 class CocaCola extends Bebida {
     /**
      * Metodo constructor de CocaCola
-     * @param a : numero de serie de la CocaCola
+     * @param a : número de serie de la CocaCola
      */
     public CocaCola(int a) {
         super(a);

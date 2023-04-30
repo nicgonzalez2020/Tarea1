@@ -165,7 +165,7 @@ class Expendedor {
     }
 
     /**
-     * Este metodo,
+     *
      * @return: retorna la cantidad de monedas en el depósito de vuelto
      */
     public int taam(){

@@ -4,8 +4,8 @@
 abstract class Dulce extends Producto{
 
     /**
-     * Constructor de Dulce, se le asigna el parametro a como número de serie
-     * @param a
+     * Constructor de Dulce
+     * @param a : numero de serie del Dulce
      */
     public Dulce(int a) {
         super(a);

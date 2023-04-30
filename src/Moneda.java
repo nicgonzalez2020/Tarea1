@@ -7,7 +7,7 @@ abstract class Moneda{
      */
     public Moneda(){}
     /**
-     * Metodo que
+     * Metodo que retorna la serie de moneda(su direccion de memoria)
      * @return : retorna la direccion de memoria de moneda
      */
     public Moneda getSerie(){
@@ -15,8 +15,8 @@ abstract class Moneda{
     }
 
     /**
-     * metodo que
-     * @return : retorna el valor de la moneda
+     * Metodo que retorna el valor de la moneda
+     * @return : Valor de la moneda
      */
     public abstract int getValor();
 
