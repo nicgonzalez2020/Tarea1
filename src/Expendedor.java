@@ -29,11 +29,9 @@ class Expendedor {
 
     /**
      * Constructor de expendedor,
-     * Inicializa los depositos de los productos y el deposito de vuelto,
-     * Crea tantos productos como se le indique en el siguiente parametro:
-     * @param numProductoss
-     * Los productos tendran el precio que se les asigne en el parametro:
-     * @param precioProductoss
+     * Inicializa los depositos de los productos y el deposito de vuelto
+     * @param numProductoss: numero de productos creados
+     * @param precioProductoss : precio de los productos
      */
     public Expendedor(int numProductoss, int precioProductoss) {
         coca = new Deposito();
@@ -59,7 +57,7 @@ class Expendedor {
 
     /**
      * Metodo que retorna un número que refleja la cantidad de los productos
-     * @return
+     * @return : la cantidad de productos
      */
     public int getNumeroBebidas(){
         return numProductos;
