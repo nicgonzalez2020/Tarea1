@@ -1,5 +1,5 @@
 /**
- * Clase Comprador donde se realiza la compra del producto
+ * Clase Comprador la cual se utiliza para realizar la compra del producto
  */
 class Comprador {
     /**

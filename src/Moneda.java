@@ -1,5 +1,6 @@
 /**
- * Clase Moneda
+ * Clase Moneda, molde para crear las monedas
+ * utilizadas para comprar en el expendedor
  */
 abstract class Moneda{
     /**
