@@ -1,6 +1,7 @@
 /**
  * Clase excepcion que se lanza cuando el valor
  * de la moneda no es suficiente
+ *
  */
 class PagoInsuficienteException extends Exception {
     /**

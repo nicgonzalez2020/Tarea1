@@ -1,5 +1,6 @@
 /**
  * Clase dulce la cual extiende a la clase producto
+ *
  */
 abstract class Dulce extends Producto{
 

@@ -1,6 +1,7 @@
 /**
  * Clase Producto, la cual es utilizada para crear
  * distintos tipos de productos
+ *
  */
 public abstract class Producto {
     /**

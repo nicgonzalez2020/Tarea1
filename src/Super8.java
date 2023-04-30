@@ -1,5 +1,6 @@
 /**
  * Clase Super8, un tipo de dulce
+ *
  */
 class Super8 extends Dulce{
     /**

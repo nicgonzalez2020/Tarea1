@@ -23,6 +23,7 @@ class Deposito{
     /**
      * Metodo que añade un producto al depósito
      * @param a : el producto añadido al depósito
+     *
      */
     public void addProducto(Producto a){
         var.add(a) ;

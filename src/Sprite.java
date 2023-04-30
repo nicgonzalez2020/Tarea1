@@ -1,5 +1,6 @@
 /**
  * Clase Sprite, un tipo de bebida
+ *
  */
 class Sprite extends Bebida {
     /**

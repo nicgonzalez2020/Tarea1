@@ -1,5 +1,6 @@
 /**
  * Clase moneda que crea monedas de 1000
+ *
  */
 class Moneda1000 extends Moneda{
     /**

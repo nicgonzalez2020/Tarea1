@@ -1,5 +1,6 @@
 /**
  * Clase excepcion que se lanza cuando la moneda no es válida
+ *
  */
 class PagoIncorrectoException extends Exception {
     /**

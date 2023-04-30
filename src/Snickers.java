@@ -1,5 +1,6 @@
 /**
  * Clase Snicker, un tipo de dulce
+ *
  */
 class Snickers extends Dulce{
     /**

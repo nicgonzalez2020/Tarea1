@@ -1,5 +1,6 @@
 /**
  * Clase excepcion que se lanza cuando no hay productos
+ *
  */
 class NoHayProductoException extends Exception {
     /**

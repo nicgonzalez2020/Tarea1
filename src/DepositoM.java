@@ -13,6 +13,7 @@ class DepositoM {
     /**
      * Constructor de depósito, inicializa la variable
      * privada arraylist arr
+     *
      */
     public DepositoM() {
         arr = new ArrayList();

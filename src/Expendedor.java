@@ -77,7 +77,7 @@ class Expendedor {
     public Producto comprarProducto(Moneda m, int cual) throws PagoIncorrectoException, PagoInsuficienteException, NoHayProductoException {
         Producto b;
         if (m == null) {
-            throw new PagoIncorrectoException("Pago no valido");
+            throw new PagoIncorrectoException("Pago no valido, vuelto: 0");
         } else {
 
             if (m.getValor() >= precioProductos) {
@@ -86,7 +86,7 @@ class Expendedor {
                         b = coca.getProducto();
                         if (b == null) {
                             monVu.addMoneda(m);
-                            throw new NoHayProductoException("No quedan CocaColas");
+                            throw new NoHayProductoException("No quedan CocaColas, vuelto: "+this.getVuelto().getValor());
                         } else {
 
                             for (int i = 0; i < (m.getValor() - precioProductos) / 100; i++) {
@@ -100,7 +100,7 @@ class Expendedor {
                         b = sprite.getProducto();
                         if (b == null) {
                             monVu.addMoneda(m);
-                            throw new NoHayProductoException("No quedan Sprites");
+                            throw new NoHayProductoException("No quedan Sprites, vuelto: "+this.getVuelto().getValor());
                         } else {
 
                             for (int i = 0; i < (m.getValor() - precioProductos) / 100; i++) {
@@ -114,7 +114,7 @@ class Expendedor {
                         b = sniker.getProducto();
                         if (b == null) {
                             monVu.addMoneda(m);
-                            throw new NoHayProductoException("No quedan Snickers");
+                            throw new NoHayProductoException("No quedan Snickers, vuelto: "+this.getVuelto().getValor());
                         } else {
 
                             for (int i = 0; i < (m.getValor() - precioProductos) / 100; i++) {
@@ -128,7 +128,7 @@ class Expendedor {
                         b = super8.getProducto();
                         if (b == null) {
                             monVu.addMoneda(m);
-                            throw new NoHayProductoException("No quedan Super 8's");
+                            throw new NoHayProductoException("No quedan Super 8's, vuelto: "+this.getVuelto().getValor());
                         } else {
 
                             for (int i = 0; i < (m.getValor() - precioProductos) / 100; i++) {
@@ -141,14 +141,14 @@ class Expendedor {
 
                     default:
                         monVu.addMoneda(m);
-                        throw new NoHayProductoException("No existe ese producto");
+                        throw new NoHayProductoException("No existe ese producto, vuelto: "+this.getVuelto().getValor());
                 }
             } else {
                 monVu.addMoneda(m);
                 if(cual!=1&&cual!=2&&cual!=3&&cual!=4){
-                    throw new NoHayProductoException("No existe ese producto");
+                    throw new NoHayProductoException("No existe ese producto, vuelto: "+this.getVuelto().getValor());
                 }else{
-                throw new PagoInsuficienteException("Pago insuficiente");}
+                throw new PagoInsuficienteException("Pago insuficiente, vuelto: "+this.getVuelto().getValor());}
             }
         }
     }
